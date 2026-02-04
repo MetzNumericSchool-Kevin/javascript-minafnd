@@ -41,7 +41,7 @@ Tu comprendras en lisant la suite :)
 
 ## 📚 Liste des exercices
 
-### Exercice 1 : Définition de variables
+<!-- ### Exercice 1 : Définition de variables
 
 **Fichier** : `exercices/01_definition_variables.js`
 
@@ -52,7 +52,7 @@ Déclare les variables pour ta boutique de potions :
 - Déclare une variable pour indiquer le prix d'une potion de soin, la valeur par défaut de ton choix.
 - Déclare une variable pour indiquer si la boutique est ouverte ou non.
 
-Affiche dans la console les informations de ta boutique avec `console.log`.
+Affiche dans la console les informations de ta boutique avec `console.log`. -->
 
 ### Exercice 2 : Affichage conditionnel
 
