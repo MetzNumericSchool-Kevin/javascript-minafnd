@@ -97,13 +97,13 @@ Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans l
 - Créé un tableau qui contient les noms de trois potions que tu vends dans ta boutique.
 - Affiche le tableau directement dans la console. -->
 
-### Exercice 7 : Affichage des potions
+<!-- ### Exercice 7 : Affichage des potions
 
 **Fichier** : `exercices/07_affichage_potions.js`
 
 - Affiche le nom de la première potion.
 - Affiche le nom de la dernière potion **sans utiliser l'indice directement, mais en utilisant la taille du tableau** (en utilisant la propriété length de l'objet Array).
-- Affiche le nom de chaque potions avec une boucle `for` et affiche le message `Nous avons de la <nom_potion> !`
+- Affiche le nom de chaque potions avec une boucle `for` et affiche le message `Nous avons de la <nom_potion> !` -->
 
 ### Exercice 8 : Ajout d'une nouvelle potion
 
