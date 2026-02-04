@@ -90,12 +90,12 @@ Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans l
   - ⚠️ **Attention**, il faut que l'aventurier ai assez d'argent pour pouvoir acheter les potions !
   - ⚠️ **Attention**, il faut qu'il y ait assez de potion en stock pour pouvoir acheter les potions ! -->
 
-### Exercice 6 : Liste des potions
+<!-- ### Exercice 6 : Liste des potions
 
 **Fichier** : `exercices/06_liste_potions.js`
 
 - Créé un tableau qui contient les noms de trois potions que tu vends dans ta boutique.
-- Affiche le tableau directement dans la console.
+- Affiche le tableau directement dans la console. -->
 
 ### Exercice 7 : Affichage des potions
 
