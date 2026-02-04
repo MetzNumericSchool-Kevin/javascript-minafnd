@@ -186,7 +186,7 @@ Ensuite :
 
 --- -->
 
-### Exercice 15 : Calculs et statistiques
+<!-- ### Exercice 15 : Calculs et statistiques
 
 **Fichier** : `exercices/15_calculs_statistiques.js`
 
@@ -199,7 +199,7 @@ Ensuite :
 - Calcule le **stock total** de toutes les potions
 - Affiche tous ces résultats dans la console
 
----
+--- -->
 
 ### Exercice 16 : Tri simple
 
