@@ -124,12 +124,12 @@ Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans l
   - le stock
 - Affiche directement l'objet dans la console -->
 
-### Exercice 11 : Affichons les informations de la potion
+<!-- ### Exercice 11 : Affichons les informations de la potion
 
 **Fichier** : `exercices/11_affichage_infos_potion.js`
 
 - Affiche le nom de la potion en utilisant la notation pointée `.`
-- Affiche le prix de la potion en utilisant la notation crochet `[]`
+- Affiche le prix de la potion en utilisant la notation crochet `[]` -->
 
 ### Exercice 12 : Aventurier, regarde tout ce que je vends !
 
