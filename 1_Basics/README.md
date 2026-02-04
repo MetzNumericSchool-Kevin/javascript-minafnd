@@ -201,7 +201,7 @@ Ensuite :
 
 --- -->
 
-### Exercice 16 : Tri simple
+<!-- ### Exercice 16 : Tri simple
 
 **Fichier** : `exercices/16_tri_simple.js`
 
@@ -221,7 +221,7 @@ inventaire[i] = inventaire[j];
 inventaire[j] = temp;
 ```
 
----
+--- -->
 
 ### Exercice 17 : Mini-simulation d'achat
 
