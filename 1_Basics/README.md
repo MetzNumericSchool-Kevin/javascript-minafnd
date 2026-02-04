@@ -169,7 +169,7 @@ Ensuite :
 
 --- -->
 
-### Exercice 14 : Filtrage et sélection
+<!-- ### Exercice 14 : Filtrage et sélection
 
 **Fichier** : `exercices/14_filtrage_selection.js`
 
@@ -184,7 +184,7 @@ Ensuite :
 
 💡 **Astuce** : Utilise une boucle `for` et la méthode `push()` pour ajouter les potions qui correspondent aux critères.
 
----
+--- -->
 
 ### Exercice 15 : Calculs et statistiques
 
