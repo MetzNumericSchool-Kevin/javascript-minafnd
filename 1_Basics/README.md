@@ -54,11 +54,11 @@ Déclare les variables pour ta boutique de potions :
 
 Affiche dans la console les informations de ta boutique avec `console.log`. -->
 
-### Exercice 2 : Affichage conditionnel
+<!-- ### Exercice 2 : Affichage conditionnel
 
 **Fichier** : `exercices/02_affichage_conditionnel.js`
 
-Affiche dans ta `console` => `Bienvenue dans la boutique <nom_boutique> Aventurier ! 🎉` si la boutique est ouverte, sinon affiche `La boutique <nom_boutique> est fermée, revenez plus tard Aventurier ! 😴`
+Affiche dans ta `console` => `Bienvenue dans la boutique <nom_boutique> Aventurier ! 🎉` si la boutique est ouverte, sinon affiche `La boutique <nom_boutique> est fermée, revenez plus tard Aventurier ! 😴` -->
 
 ### Exercice 3 : Affichage conditionnel avec switch
 
