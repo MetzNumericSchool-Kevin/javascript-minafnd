@@ -73,12 +73,12 @@ Affiche dans ta `console` => `Bienvenue dans la boutique <nom_boutique> Aventuri
 - Avec un `switch ... case` sur le numéro choisi par l'aventurier, affiche l'information demandée
   - Dans le cas où cela ne correspond pas à aucun des choix, affiche `Mh... Désolé aventurier, je ne comprends pas ce que tu souhaites. Refais ton choix ! 😕`
   - ⚠️ **Attention**, `prompt` retourne une chaîne de caractère, il faudra certainement le convertir en `Number` avec `parseInt` -->
-
+<!-- 
 ### Exercice 4 : Calcul du prix total d'une commande de potion 🪙
 
 **Fichier** : `exercices/04_calcul_prix_total.js`
 
-Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans la `console` => `Prix de <quantite_potion> potions de soins : <prix_total> 🪙 mon cher Aventurier. 💸`.
+Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans la `console` => `Prix de <quantite_potion> potions de soins : <prix_total> 🪙 mon cher Aventurier. 💸`. -->
 
 ### Exercice 5 : Bourse de l'Aventurier 💰
 
