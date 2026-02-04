@@ -61,10 +61,10 @@ function calculerPrixTotal(id_potion, inventaire, quantite = 1){
 
 
 // 🧪 TESTS - Décommente pour tester
-console.log("=== EXERCICE 2 ===");
-const prix = calculerPrixTotal("potion_soin", inventaire, 3);
+// console.log("=== EXERCICE 2 ===");
+// const prix = calculerPrixTotal("potion_soin", inventaire, 3);
 // console.log("Prix pour 3 potions:", prix, "🪙");
-console.log(prix)
+// console.log(prix)
 
 
 // ============================================
@@ -73,9 +73,14 @@ console.log(prix)
 // 🎯 Objectif : Créer une fonction qui fabrique un nouvel objet potion
 // 📖 Consignes : Consulte le README pour les détails
 
-// ✍️ TON CODE ICI
-// Crée ta fonction fabriquerPotion() ci-dessous
-
+function fabriquerPotion(id, prix = 10, stock = 1){
+  let newObject = {
+    id : id,
+    prix : prix,
+    stock : stock
+  }
+  return newObject
+}
 
 
 
@@ -94,17 +99,24 @@ console.log(prix)
 // 📖 Consignes : Consulte le README pour les détails
 
 // ✍️ TON CODE ICI
-// Crée ta fonction ajouterPotion() ci-dessous
-
-
-
-
+function ajouterPotion(inventaire, potion){
+  for (let i =0; i < inventaire.lenght; i ++){
+    if (inventaire[i].id == potion.id){
+      inventaire[i].prix = potion.prix
+      inventaire[i].stock = potion.stock
+    }
+  }
+  inventaire.push(potion)
+  }
+  
 // 🧪 TESTS - Décommente pour tester
-// console.log("=== EXERCICE 4 ===");
-// const nouvellePotion = fabriquerPotion("potion_mana", 20, 3);
-// ajouterPotion(inventaire, nouvellePotion);
-// console.log("Inventaire après ajout:", inventaire);
-
+console.log("=== EXERCICE 4 ===");
+const nouvellePotion = fabriquerPotion("potion_mana", 20, 3);
+ajouterPotion(inventaire, nouvellePotion);
+console.log("Inventaire après ajout:", inventaire);
+const nouvellePotion2 = fabriquerPotion("potion_mana", 40, 4);
+ajouterPotion(inventaire, nouvellePotion2);
+console.log("Inventaire après ajout:", inventaire);
 
 // ============================================
 // EXERCICE 5 : Cherche moi les potions qui...
