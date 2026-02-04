@@ -152,7 +152,7 @@ Ensuite :
   - `for` sur `Object.keys`
   - `for ... in` sur ton objet
   - `for ... of` sur `Object.entries` -->
-
+<!-- 
 ### Exercice 13 : Recherche dans l'inventaire
 
 **Fichier** : `exercices/13_grand_marchand.js`
@@ -167,7 +167,7 @@ Ensuite :
 
 💡 **Astuce** : Utilise des variables pour stocker les résultats pendant que tu parcours l'inventaire avec une boucle `for`.
 
----
+--- -->
 
 ### Exercice 14 : Filtrage et sélection
 
