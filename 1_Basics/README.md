@@ -114,7 +114,7 @@ Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans l
 - Finalement, nous ne gardons pas cette nouvelle potion dans la liste. Supprime la en utilisant la méthode `pop`
 - Affiche la liste des potions mis à jour -->
 
-### Exercice 10 : Rangeons les informations de la potion de soin dans un objet 🧹
+<!-- ### Exercice 10 : Rangeons les informations de la potion de soin dans un objet 🧹
 
 **Fichier** : `exercices/10_objet_potion_soin.js`
 
@@ -122,7 +122,7 @@ Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans l
   - le nom de la potion
   - son prix
   - le stock
-- Affiche directement l'objet dans la console
+- Affiche directement l'objet dans la console -->
 
 ### Exercice 11 : Affichons les informations de la potion
 
