@@ -1,8 +1,6 @@
 // ============================================
 // 📦 CONSTANTES DE DÉPART
 // ============================================
-// Copie ces constantes au début de ton fichier
-// Tu les utiliseras dans tous les exercices
 
 const nom_sorcier = "Archibald 🧙‍♂️";
 
@@ -25,16 +23,13 @@ const inventaire = [
 // ============================================
 // EXERCICE 1 : Salutation Aventurier
 // ============================================
-// 🎯 Objectif : Créer ta première fonction qui affiche un message personnalisé
-// 📖 Consignes : Consulte le README pour les détails
 
-// ✍️ TON CODE ICI
-// Crée ta fonction salutations() ci-dessous
-
+function salutations(nom){
+  return console.log(`Salutations, jeune aventurier ! Je me nomme ${nom} pour vous servir.`)
+}
 
 
-
-// 🧪 TESTS - Décommente pour tester
+//🧪 TESTS - Décommente pour tester
 // console.log("=== EXERCICE 1 ===");
 // salutations(nom_sorcier);
 
@@ -42,19 +37,34 @@ const inventaire = [
 // ============================================
 // EXERCICE 2 : Quel est le tarif d'une potion ?
 // ============================================
-// 🎯 Objectif : Créer une fonction qui calcule le prix total d'une commande
-// 📖 Consignes : Consulte le README pour les détails
 
-// ✍️ TON CODE ICI
-// Crée ta fonction calculerPrixTotal() ci-dessous
+// 1. Crée une fonction nommée `calculerPrixTotal` avec **3 paramètres** :
+//    - `id_potion` : l'identifiant de la potion (ex: "potion_soin")
+//    - `inventaire` : le tableau d'inventaire
+//    - `quantite` : la quantité demandée (valeur par défaut = 1)
+// 2. La fonction doit :
+//    - Trouver la potion dans l'inventaire grâce à son `id`
+//    - Calculer le prix total : `prix de la potion × quantité`
+//    - Retourner ce prix total
 
+function calculerPrixTotal(id_potion, inventaire, quantite = 1){
+  let prix_total = 0;
+  for (let i=0; i < inventaire.length; i++){
+    if (inventaire[i].id == id_potion){
+      prix_total = inventaire[i].prix * quantite
+      break;
+    }
+  }
+  return prix_total
+}
 
 
 
 // 🧪 TESTS - Décommente pour tester
-// console.log("=== EXERCICE 2 ===");
-// const prix = calculerPrixTotal("potion_soin", inventaire, 3);
+console.log("=== EXERCICE 2 ===");
+const prix = calculerPrixTotal("potion_soin", inventaire, 3);
 // console.log("Prix pour 3 potions:", prix, "🪙");
+console.log(prix)
 
 
 // ============================================
