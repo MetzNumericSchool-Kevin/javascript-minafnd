@@ -60,7 +60,7 @@ Affiche dans la console les informations de ta boutique avec `console.log`. -->
 
 Affiche dans ta `console` => `Bienvenue dans la boutique <nom_boutique> Aventurier ! 🎉` si la boutique est ouverte, sinon affiche `La boutique <nom_boutique> est fermée, revenez plus tard Aventurier ! 😴` -->
 
-### Exercice 3 : Affichage conditionnel avec switch
+<!-- ### Exercice 3 : Affichage conditionnel avec switch
 
 **Fichier** : `exercices/03_affichage_conditionnel_switch.js`
 
@@ -72,7 +72,7 @@ Affiche dans ta `console` => `Bienvenue dans la boutique <nom_boutique> Aventuri
 - Fais un `prompt` pour demander à l'aventurier son choix entre 1 et 4
 - Avec un `switch ... case` sur le numéro choisi par l'aventurier, affiche l'information demandée
   - Dans le cas où cela ne correspond pas à aucun des choix, affiche `Mh... Désolé aventurier, je ne comprends pas ce que tu souhaites. Refais ton choix ! 😕`
-  - ⚠️ **Attention**, `prompt` retourne une chaîne de caractère, il faudra certainement le convertir en `Number` avec `parseInt`
+  - ⚠️ **Attention**, `prompt` retourne une chaîne de caractère, il faudra certainement le convertir en `Number` avec `parseInt` -->
 
 ### Exercice 4 : Calcul du prix total d'une commande de potion 🪙
 
