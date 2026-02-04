@@ -105,14 +105,14 @@ Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans l
 - Affiche le nom de la dernière potion **sans utiliser l'indice directement, mais en utilisant la taille du tableau** (en utilisant la propriété length de l'objet Array).
 - Affiche le nom de chaque potions avec une boucle `for` et affiche le message `Nous avons de la <nom_potion> !` -->
 
-### Exercice 8 : Ajout d'une nouvelle potion
+<!-- ### Exercice 8 : Ajout d'une nouvelle potion
 
 **Fichier** : `exercices/08_ajout_nouvelle_potion.js`
 
 - Ajoute une nouvelle potion dans le tableau en utilisant la méthode `push` de l'objet Array.
 - Affiche la liste des potions mis à jour
 - Finalement, nous ne gardons pas cette nouvelle potion dans la liste. Supprime la en utilisant la méthode `pop`
-- Affiche la liste des potions mis à jour
+- Affiche la liste des potions mis à jour -->
 
 ### Exercice 10 : Rangeons les informations de la potion de soin dans un objet 🧹
 
