@@ -131,7 +131,7 @@ Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans l
 - Affiche le nom de la potion en utilisant la notation pointée `.`
 - Affiche le prix de la potion en utilisant la notation crochet `[]` -->
 
-### Exercice 12 : Aventurier, regarde tout ce que je vends !
+<!-- ### Exercice 12 : Aventurier, regarde tout ce que je vends !
 
 **Fichier** : `exercices/12_affichage_inventaire.js`
 
@@ -151,7 +151,7 @@ Ensuite :
 - Trouve une autre solution pour afficher **dynamiquement** chacune des propriétés de la potion **sans utiliser la notation pointée ou crochet**. Tu as plusieurs possibilités :
   - `for` sur `Object.keys`
   - `for ... in` sur ton objet
-  - `for ... of` sur `Object.entries`
+  - `for ... of` sur `Object.entries` -->
 
 ### Exercice 13 : Recherche dans l'inventaire
 
