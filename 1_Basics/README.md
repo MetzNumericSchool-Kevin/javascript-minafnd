@@ -80,7 +80,7 @@ Affiche dans ta `console` => `Bienvenue dans la boutique <nom_boutique> Aventuri
 
 Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans la `console` => `Prix de <quantite_potion> potions de soins : <prix_total> 🪙 mon cher Aventurier. 💸`. -->
 
-### Exercice 5 : Bourse de l'Aventurier 💰
+<!-- ### Exercice 5 : Bourse de l'Aventurier 💰
 
 **Fichier** : `exercices/05_bourse_aventurier.js`
 
@@ -88,7 +88,7 @@ Demande avec `prompt` une quantité de potion de soin, et affiche ensuite dans l
 - Vérifie si l'aventurier a assez d'argent pour acheter la quantité de potion demandée.
 - Soustrais la quantité de potion demandée du stock et soustrais le prix total de la bourse de l'aventurier.
   - ⚠️ **Attention**, il faut que l'aventurier ai assez d'argent pour pouvoir acheter les potions !
-  - ⚠️ **Attention**, il faut qu'il y ait assez de potion en stock pour pouvoir acheter les potions !
+  - ⚠️ **Attention**, il faut qu'il y ait assez de potion en stock pour pouvoir acheter les potions ! -->
 
 ### Exercice 6 : Liste des potions
 
